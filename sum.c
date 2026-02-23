@@ -1,17 +1,14 @@
-#include <stdio.h>
-int main() 
-{
- int count = 0,sum = 0, i;
- for (i = 101; i < 200; i++) 
- {
-   if (i % 7 == 0) 
-   {
-    count++;    
-    sum += i;   
-   }
- }
-
-    printf("Number of integers: %d\n", count);
-    printf("Sum of integers: %d\n", sum);
-return 0;
-}
+#include<stdio.h>
+#include<math.h>
+void main()
+{ 
+  int n,sum,a,b;
+  printf("enter 2 digit number");
+  scanf("%d",&n);
+  a=floor(n/10);
+  printf("%d \n",a);
+  b=(n%10);
+  printf("%d \n",b);
+  sum=a+b;
+  printf("%d",sum);
+} 
