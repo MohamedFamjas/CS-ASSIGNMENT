@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{
+   int x=10;
+   if(x=20) printf("true");
+   else printf("false");
+     
+} 
